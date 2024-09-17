@@ -1,0 +1,3 @@
+log level
+-------------
+log<trace<debug<info<warn<error<fatal<off

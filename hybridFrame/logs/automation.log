@@ -1,0 +1,19 @@
+14:34:26.473 [TestNG-tests-1] INFO  testCase.TC003_Login_DD - ***click_Login***
+14:34:26.576 [TestNG-tests-1] INFO  testCase.TC003_Login_DD - ***sendusername***
+14:34:28.676 [TestNG-tests-1] INFO  testCase.TC003_Login_DD - ***sendpassword***
+14:34:32.737 [TestNG-tests-1] INFO  testCase.TC003_Login_DD - ***clicksLogin_button***
+14:34:33.294 [TestNG-tests-1] INFO  testCase.TC003_Login_DD - ***clicks logout***
+14:34:33.294 [TestNG-tests-1] INFO  testCase.TC003_Login_DD - ***TC003_LoginTest_DD_testcase failed***
+14:34:33.294 [TestNG-tests-1] INFO  testCase.TC003_Login_DD - ***test failed***null
+14:34:33.295 [TestNG-tests-1] INFO  testCase.TC003_Login_DD - ****test completed****
+15:40:20.716 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\abhai\eclipse-workspace\hybrid\hybridFrame\master.xml"
+15:40:20.929 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\abhai\eclipse-workspace\hybrid\hybridFrame\master.xml
+
+15:40:25.301 [TestNG-tests-1] INFO  testCase.TC002_Login_Test - ****test started TC002_Login_Test
+15:40:25.411 [TestNG-tests-1] INFO  testCase.TC002_Login_Test - ****click_myaccount
+15:40:25.838 [TestNG-tests-1] INFO  testCase.TC002_Login_Test - ***click_Login***
+15:40:26.023 [TestNG-tests-1] INFO  testCase.TC002_Login_Test - ***sendusername***
+15:40:26.112 [TestNG-tests-1] INFO  testCase.TC002_Login_Test - ***sendpassword***
+15:40:26.154 [TestNG-tests-1] INFO  testCase.TC002_Login_Test - ***clicksLogin_button***
+15:40:36.195 [TestNG-tests-1] INFO  testCase.TC002_Login_Test - ****test completed****

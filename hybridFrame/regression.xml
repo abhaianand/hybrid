@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">  <!-- Suite parallelism -->
+  <test name="Test Chrome">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <!-- Run smaster group -->
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>  <!-- Class section should be uncommented to include test classes -->
+      <!-- Uncomment or add required test classes here -->
+      <class name="testCase.BaseClass"/>
+      <class name="testCase.TC001_AccountRegistrerationTest"/>
+      <class name="testCase.TC002_Login_Test"/>
+      <class name="testCase.TC003_Login_DD"/> <!-- Only running this class -->
+    </classes>
+  </test>
+</suite>
